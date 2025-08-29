@@ -54,6 +54,7 @@ public class PlayerHealth : MonoBehaviour
         rb.velocity = Vector2.zero;
         rb.position = respawnPos;
         transform.localRotation = Quaternion.Euler(0, respawnRight ? 0 : 180, 0);
+        pc.moveRight = respawnRight;
     }
 
     public void GetHitted()

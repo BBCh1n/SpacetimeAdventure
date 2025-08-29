@@ -16,7 +16,7 @@ public class PlayerController : MonoBehaviour
     public bool isGrounded = true;
     public bool isBlocked = false;
 
-    private bool moveRight = true;
+    public bool moveRight = true;
     private bool jumpRequest = false;
     private bool isJumping = false;
     private bool isFalling = false;
